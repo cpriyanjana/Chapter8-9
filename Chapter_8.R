@@ -13,7 +13,7 @@ row.names(deck)
 levels(deck) <- c("basic", "intermediate", "advanced")
 attributes(deck)
 
-# Slot machine simulation – original version
+# Slot machine simulation
 
 run_game <- function() {
   result <- get_symbols()
@@ -21,7 +21,7 @@ run_game <- function() {
   calculate_score(result)
 }
 
-# Enhanced version – store symbols as attribute
+# store symbols as attribute
 
 run_game <- function() {
   result <- get_symbols()
