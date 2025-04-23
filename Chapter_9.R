@@ -1,7 +1,5 @@
 # Chapter 9
 
-# --- Loops and Expected Values ---
-
 # Define die outcomes
 dice <- 1:6
 all_rolls <- expand.grid(dice, dice)
@@ -99,7 +97,7 @@ for (k in seq_along(loop_words)) {
 }
 letters_out
 
-# --- While Loop Example ---
+# --- While Loop ---
 
 simulate_plays <- function(start_cash) {
   funds <- start_cash
@@ -112,7 +110,7 @@ simulate_plays <- function(start_cash) {
 }
 # simulate_plays(100)
 
-# --- Repeat Loop Example ---
+# --- Repeat Loop ---
 
 repeat_until_broke <- function(start_cash) {
   funds <- start_cash
